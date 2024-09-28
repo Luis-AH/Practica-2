@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    flex-wrap: wrap;
+  }
+}
+.item {
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    flex-wrap: wrap;
+  }
+
+  div img {
+    height: 200px;
+  }
+}

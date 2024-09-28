@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header,
+nav,
+footer {
+  background-color: #610000;
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: rgb(7, 0, 37);
+}
+
+.content {
+  color: #ffffff;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.content2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+article {
+  text-align: center;
+}
+select {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1.2rem;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+h3 {
+  width: 250px;
+}
+
+.movie-description {
+  width: 250px;
+  text-align: center;
+}
+
+.button {
+  background-color: #007bff;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+}
+.title h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 4rem;
+}
