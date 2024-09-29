@@ -96,3 +96,7 @@ h3 {
   text-align: center;
   font-size: 4rem;
 }
+.selector {
+  padding: 10px;
+  background-color: #610000;
+}
