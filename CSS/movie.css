@@ -41,12 +41,12 @@ body {
 .content {
   color: #ffffff;
   text-align: center;
-  font-size: 4rem;
+  font-size: 50px;
 }
 
 .content2 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 30px;
 }
 
 article {
@@ -94,7 +94,7 @@ h3 {
 .title h1 {
   color: #ffffff;
   text-align: center;
-  font-size: 4rem;
+  font-size: 50px;
 }
 .selector {
   padding: 10px;
